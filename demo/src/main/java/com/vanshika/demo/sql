@@ -1,0 +1,5 @@
+INSERT INTO EMPLOYEE (id, name, salary, des, email, phone_no)
+VALUES (1, 'John Doe', 50000, 'Developer', 'john@example.com', 9876543210);
+
+INSERT INTO EMPLOYEE (id, name, salary, des, email, phone_no)
+VALUES (2, 'Jane Smith', 60000, 'Manager', 'jane@example.com', 9876500000);
