@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Directory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Employee Directory</h1>
+
+    <div class="buttons">
+        <button id="addBtn">Add Employee</button>
+        <button id="delete">Delete</button>
+        <button id="updateBtn">Update Employee</button>
+    </div>
+
+    <div id="formBox" class="panel">
+        <input type="text" id="name" placeholder="Name">
+        <input type="number" id="salary" placeholder="Salary">
+        <input type="number" id="age" placeholder="Age">
+        <button onclick="saveEmployee()">Save</button>
+    </div>
+
+    <div id="deleteid" class="panel">
+        <input type="number" id="id" placeholder="Employee ID">
+        <button id="confirmDelete">Confirm Delete</button>
+    </div>
+
+    <div id="updateBox" class="panel">
+        <input type="number" id="uid" placeholder="Employee ID">
+        <input type="text" id="uname" placeholder="New Name">
+        <input type="number" id="usalary" placeholder="New Salary">
+        <input type="number" id="uage" placeholder="New Age">
+        <button id="confirmUpdate">Confirm Update</button>
+    </div>
+
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>Age</th>
+        </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
